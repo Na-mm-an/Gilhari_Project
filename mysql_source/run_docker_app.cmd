@@ -1,1 +1,1 @@
-docker run  -p 80:8081 gilhari_simple_example:1.0
+docker run  -p 80:8081 mysql_source:1.0
