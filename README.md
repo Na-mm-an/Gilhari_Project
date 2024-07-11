@@ -1,21 +1,7 @@
 # Gilhari_Project // Sourse Database is MYSQL
 Steps to Setup
 1. Directory Structure
-Ensure your project directory structure is set up as follows:
-project-root/
-│
-├── sourcedb/
-│   ├── config/
-│   │   ├── gilhari5_source_mysql_local.config   // ORM configuration file
-│   │   └── <JDBC driver files>                  // Place JDBC driver files here
-│   ├── src/
-│      └── com/
-│          └── mycompany/
-│              └── gilhari5/
-│                  └──.java  files            // Java class file example
-│   
-├── Dockerfile                                   // Docker configuration file
-└── README.md                                    // This README file
+Ensure your project directory structure is set up as shown in the REPO.
 2. Configuration
 Edit gilhari5_source_mysql_local.config and .jdx files in sourcedb/config/ to define ORM specifications.
 Ensure JDBC driver for your database is placed in sourcedb/config/.
